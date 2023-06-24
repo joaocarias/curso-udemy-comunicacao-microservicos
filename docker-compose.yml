@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+
+  auth_db:
+    image: postgres
+    container_name: auth_db
+    restart: always
+    environment:
+      - POSTGRES_DB=auth_bd
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=123456
+    ports:
+      - 5432:5432
+
+  product_db:
+    image: postgres
+    container_name: product_db
+    restart: always
+    environment:
+      - POSTGRES_DB=product_bd
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=123456
+    ports:
+      - 5433:5432
+
+  sales_db:
+    image: tutum/mongodb
+    container_name: sales_db
+    restart: always
+    environment:
+      - MONGODB_DATABASE="sales"
+      - MONGODB_USER="admin"
+      - MONGODB_PASS="123456"
+    ports:
+      - 27017:27017 
+      - 28017:28017
+
+  sales_rabbit:
+    image: rabbitmq:3-management
+    container_name:  sales_rabbit 
+    ports:
+      - 5672:5672 
+      - 25676:25676 
+      - 15672:15672 
