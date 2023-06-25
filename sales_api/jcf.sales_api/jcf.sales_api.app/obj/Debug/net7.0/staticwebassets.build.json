@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "37k6g/J/Btjhdwe5cMd6xrVnemC64lYsMmJ4QAab0aU=",
+  "Source": "jcf.sales_api.app",
+  "BasePath": "_content/jcf.sales_api.app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

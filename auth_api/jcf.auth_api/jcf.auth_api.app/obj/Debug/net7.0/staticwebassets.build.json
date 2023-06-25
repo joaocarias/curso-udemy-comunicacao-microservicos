@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gg0j2IHqWrgiI8NgTPgwxnMnV1F58F1kF8ln2n+GOrc=",
+  "Source": "jcf.auth_api.app",
+  "BasePath": "_content/jcf.auth_api.app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
